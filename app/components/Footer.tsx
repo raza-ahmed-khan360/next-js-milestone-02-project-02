@@ -1,0 +1,36 @@
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+
+const Footer = () => {
+  return (
+    <div className="bg-brand-section">
+      <footer className="text-brand-text body-font">
+        <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <Image alt="profile" width={70} height={70} src={"/pictures-cv/logo-profile.jpg"} className="rounded-full" />
+            <span className="ml-3 text-xl font-black">Raza Ahmed</span>
+          </a>
+          <p className="text-sm text-gray-00 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-400 sm:py-2 sm:mt-0 mt-4">
+            © 2024 Raza Ahmed 
+          </p>
+          <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <Link href="https://www.facebook.com/profile.php?id=100008466768023" target="_blank" className="text-brand-text transition-transform duration-300 ease-in-out hover:scale-110">
+            <BsFacebook className="text-2xl" />
+            </Link>
+            
+            <Link href="https://www.instagram.com/raza._.ahmed321/" target="_blank" className="ml-3 text-brand-text transition-transform duration-300 ease-in-out hover:scale-110">
+            <BsInstagram className="text-2xl" />
+            </Link>
+            <Link href="https://www.linkedin.com/in/raza-ahmed-a39886290/" target="_blank" className="ml-3 text-brand-text transition-transform duration-300 ease-in-out hover:scale-110">
+            <BsLinkedin className="text-2xl" />
+            </Link>
+          </span>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Footer;
