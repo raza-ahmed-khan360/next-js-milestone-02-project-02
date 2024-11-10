@@ -83,7 +83,7 @@ const Contact = () => {
                 <p className="leading-normal my-5">
                   Jhanda Chowk
                   <br />
-                  Liaqautabad Block 2, Karachi
+                  Liaquatabad Block 2, Karachi
                 </p>
                 <span className="inline-flex">
                   <Link
