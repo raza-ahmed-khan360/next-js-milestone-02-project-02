@@ -38,7 +38,7 @@ const About = () => {
             height={600}
               className="object-cover object-center rounded"
               alt="hero"
-              src="/pictures-cv/logo-profile.jpg"
+              src="/pictures-cv/picture.png"
             />
           </div>
         </div>
