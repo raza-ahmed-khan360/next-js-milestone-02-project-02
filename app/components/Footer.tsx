@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsBehance, BsDribbble, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -16,13 +16,21 @@ const Footer = () => {
             © 2024 Raza Ahmed 
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <Link href="https://www.facebook.com/profile.php?id=100008466768023" target="_blank" className="text-brand-text transition-transform duration-300 ease-in-out hover:scale-110">
-            <BsFacebook className="text-2xl" />
-            </Link>
-            
-            <Link href="https://www.instagram.com/raza._.ahmed321/" target="_blank" className="ml-3 text-brand-text transition-transform duration-300 ease-in-out hover:scale-110">
-            <BsInstagram className="text-2xl" />
-            </Link>
+           <Link
+                    href="https://dribbble.com/razaahmed321"
+                    target="_blank"
+                    className="text-brand-text"
+                  >
+                    <BsDribbble className="transition-transform duration-300 ease-in-out hover:scale-110 text-2xl" />
+                  </Link>
+
+                  <Link
+                    href="https://www.behance.net/hafizrazaahmed"
+                    target="_blank"
+                    className=" ml-3 text-brand-text"
+                  >
+                    <BsBehance className="transition-transform duration-300 ease-in-out hover:scale-110 text-2xl" />
+                  </Link>
             <Link href="https://www.linkedin.com/in/raza-ahmed-a39886290/" target="_blank" className="ml-3 text-brand-text transition-transform duration-300 ease-in-out hover:scale-110">
             <BsLinkedin className="text-2xl" />
             </Link>
