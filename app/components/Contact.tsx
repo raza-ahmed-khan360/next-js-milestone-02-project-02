@@ -79,7 +79,7 @@ const Contact = () => {
               </div>
 
               <div className="p-2 w-full pt-8 mt-8 border-t-2 border-blue-200 text-center">
-                <a className="text-blue-500">hafizrazaahmed42@email.com</a>
+                <a href="mailto:" className="text-blue-500">hafizrazaahmed42@email.com</a>
                <div className="leading-normal py-3"/>
                 <span className="inline-flex">
                   <Link
