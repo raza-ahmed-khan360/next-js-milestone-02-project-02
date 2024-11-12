@@ -27,8 +27,8 @@ const Projects = () => {
                   width={600}
                   height={360}
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/pictures-cv/static-resume.png"
+                  className="absolute inset-0 w-full h-full object-contain object-center"
+                  src="/pictures-cv/resume.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -58,8 +58,8 @@ const Projects = () => {
                   width={600}
                   height={360}
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/pictures-cv/dynamic-resume.png"
+                  className="absolute inset-0 w-full h-full object-contain object-center"
+                  src="/pictures-cv/editable-resume.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -89,8 +89,8 @@ const Projects = () => {
                   width={600}
                   height={360}
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/pictures-cv/figma-file.png"
+                  className="absolute inset-0 w-full h-full object-contain object-center"
+                  src="/pictures-cv/Hero-section.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -120,8 +120,8 @@ const Projects = () => {
                   width={600}
                   height={360}
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/pictures-cv/Home-Page.jpg"
+                  className="absolute inset-0 w-full h-full object-contain object-center"
+                  src="/pictures-cv/full-page.jpg"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
