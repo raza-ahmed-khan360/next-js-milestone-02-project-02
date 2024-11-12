@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsBehance, BsDribbble, BsLinkedin } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -80,26 +80,22 @@ const Contact = () => {
 
               <div className="p-2 w-full pt-8 mt-8 border-t-2 border-blue-200 text-center">
                 <a className="text-blue-500">hafizrazaahmed42@email.com</a>
-                <p className="leading-normal my-5">
-                  Jhanda Chowk
-                  <br />
-                  Liaquatabad Block 2, Karachi
-                </p>
+               <div className="leading-normal py-3"/>
                 <span className="inline-flex">
                   <Link
-                    href="https://www.facebook.com/profile.php?id=100008466768023"
+                    href="https://dribbble.com/razaahmed321"
                     target="_blank"
                     className="text-brand-text"
                   >
-                    <BsFacebook className="transition-transform duration-300 ease-in-out hover:scale-110 text-2xl" />
+                    <BsDribbble className="transition-transform duration-300 ease-in-out hover:scale-110 text-2xl" />
                   </Link>
 
                   <Link
-                    href="https://www.instagram.com/raza._.ahmed321/"
+                    href="https://www.behance.net/hafizrazaahmed"
                     target="_blank"
                     className=" ml-3 text-brand-text"
                   >
-                    <BsInstagram className="transition-transform duration-300 ease-in-out hover:scale-110 text-2xl" />
+                    <BsBehance className="transition-transform duration-300 ease-in-out hover:scale-110 text-2xl" />
                   </Link>
                   <Link
                     href="https://www.linkedin.com/in/raza-ahmed-a39886290/"
