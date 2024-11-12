@@ -15,7 +15,7 @@ const Navbar = () => {
               width={50}
               height={50}
               alt="logo"
-              src={"/pictures-cv/logo-profile.jpg"}
+              src={"/pictures-cv/logo.png"}
               className="rounded-full"
             />
             <span className="ml-3 text-xl font-black ">Raza Ahmed</span>
