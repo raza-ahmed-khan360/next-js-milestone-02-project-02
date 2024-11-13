@@ -26,7 +26,7 @@ const About = () => {
             </p>
             <div className="flex justify-center">
             <Link href="/pictures-cv/cv.pdf" target="_blank">
-              <button className="inline-flex transition-transform duration-300 ease-in-out hover:scale-110bg-brand-btn bg-brand-btn text-brand-bg hover:bg-brand-bg font-bold hover:text-brand-text border-0 py-2 px-6 focus:outline-none rounded text-lg">
+              <button className="inline-flex transition-transform duration-300 ease-in-out hover:scale-110 bg-brand-btn bg-brand-btn text-brand-bg hover:bg-brand-bg font-bold hover:text-brand-text border-0 py-2 px-6 focus:outline-none rounded text-lg">
                 View CV
               </button>
               </Link>
