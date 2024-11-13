@@ -8,9 +8,9 @@ const Contact = () => {
       <section className="text-brand-text body-font relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-brand-text">
+            <h2 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-brand-text">
               Contact Us
-            </h1>
+            </h2>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
               Feel free to reach out to us for any questions or concerns.
             </p>
