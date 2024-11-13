@@ -8,9 +8,9 @@ const Projects = () => {
       <section className="text-brand-text body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">
+            <h2 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">
               Projects
-            </h1>
+            </h2>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
               Here’s a collection of my work across Graphic Design, Web
               Development, and UI/UX Design. Each project reflects my commitment
@@ -31,12 +31,12 @@ const Projects = () => {
                   src="/pictures-cv/resume.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+                  <h3 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
                     Static Resume Builder
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  </h3>
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     RESUME
-                  </h1>
+                  </h2>
                   <p className="leading-relaxed">
                     An Static Resume Builder that helps you create a resume in
                     minutes.
@@ -62,12 +62,12 @@ const Projects = () => {
                   src="/pictures-cv/editable-resume.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+                  <h3 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
                     Dynamic Resume Builder
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  </h3>
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     RESUME BUILDER
-                  </h1>
+                  </h2>
                   <p className="leading-relaxed">
                     A Dynamic Resume Builder that helps you create a resume in
                     minutes.
@@ -93,12 +93,12 @@ const Projects = () => {
                   src="/pictures-cv/Hero-section.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+                  <h3 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
                     DashSlack Hero Section
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  </h3>
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     DASHSLACK DESIGN
-                  </h1>
+                  </h2>
                   <p className="leading-relaxed">
                     DashSlack Design is a Hero Section perfect for inspiration
                     for newbies.
@@ -124,12 +124,12 @@ const Projects = () => {
                   src="/pictures-cv/full-page.jpg"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+                  <h3 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
                     Full Page UI Saas Design Idea
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  </h3>
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     SaaS Design
-                  </h1>
+                  </h2>
                   <p className="leading-relaxed">
                     It help begginers to inspired in UI SaaS design, quick idea
                     to jump into design.
