@@ -6,9 +6,9 @@ const Testimonials = () => {
     <div id="Testimonials" className="bg-brand-bg">
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <h1 className="sm:text-3xl text-center text-2xl font-bold title-font mb-20 text-gray-900">
+          <h2 className="sm:text-3xl text-center text-2xl font-bold title-font mb-20 text-gray-900">
             Words from My Clients
-            </h1>
+            </h2>
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
               <div className="h-full text-center">
@@ -27,9 +27,9 @@ const Testimonials = () => {
                   our customers has been amazing!"
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-blue-200 mt-6 mb-4" />
-                <h2 className="text-gray-900 font-medium title-font tracking-wider text-md">
+                <h3 className="text-gray-900 font-medium title-font tracking-wider text-md">
                     Sarah Johnson
-                </h2>
+                </h3>
                 <p className="text-gray-500">Marketing Manager at Creative Co.</p>
               </div>
             </div>
@@ -50,9 +50,9 @@ const Testimonials = () => {
                   presence. I couldn’t be happier!"
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-blue-200 mt-6 mb-4" />
-                <h2 className="text-gray-900 font-medium title-font tracking-wider text-md">
+                <h3 className="text-gray-900 font-medium title-font tracking-wider text-md">
                  Emily Roberts
-                </h2>
+                </h3>
                 <p className="text-gray-500">Owner of Green Earth Boutique</p>
               </div>
             </div>
@@ -73,9 +73,9 @@ const Testimonials = () => {
                   significantly improved."
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-blue-200 mt-6 mb-4" />
-                <h2 className="text-gray-900 font-medium title-font tracking-wider text-md">
+                <h3 className="text-gray-900 font-medium title-font tracking-wider text-md">
                   Olivia Martinez
-                </h2>
+                </h3>
                 <p className="text-gray-500">Product Manager at Fintech Solutions</p>
               </div>
             </div>
