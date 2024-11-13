@@ -5,9 +5,9 @@ const Skills = () => {
     <div id="Skills">
       <section className="text-brand-text bg-brand-bg body-font">
         <div className="container px-5 py-24 mx-auto">
-          <h1 className="sm:text-3xl text-2xl font-bold title-font text-center text-gray-900 mb-20">
+          <h2 className="sm:text-3xl text-2xl font-bold title-font text-center text-gray-900 mb-20">
             Skills
-          </h1>
+          </h2>
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <div className="p-4 md:w-1/3 flex">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-xl  mb-4 flex-shrink-0">
@@ -24,9 +24,9 @@ const Skills = () => {
                 </svg>
               </div>
               <div className="flex-grow pl-6">
-                <h2 className="text-brand-text text-lg title-font font-semibold mb-2">
+                <h3 className="text-brand-text text-lg title-font font-semibold mb-2">
                   Web Development
-                </h2>
+                </h3>
                 <p className="leading-relaxed text-base">
                   I specialize in building clean, responsive, and user-friendly
                   websites that are as functional as they are visually
@@ -54,9 +54,9 @@ const Skills = () => {
                 </svg>
               </div>
               <div className="flex-grow pl-6">
-                <h2 className="text-brand-text text-lg title-font font-semibold mb-2">
+                <h3 className="text-brand-text text-lg title-font font-semibold mb-2">
                   UI/UX Designing
-                </h2>
+                </h3>
                 <p className="leading-relaxed text-base">
                   My approach to UI/UX design is centered around understanding
                   the user's needs and creating intuitive, enjoyable
@@ -85,9 +85,9 @@ const Skills = () => {
                 </svg>
               </div>
               <div className="flex-grow pl-6">
-                <h2 className="text-brand-text text-lg title-font font-semibold mb-2">
+                <h3 className="text-brand-text text-lg title-font font-semibold mb-2">
                   Graphic Designing
-                </h2>
+                </h3>
                 <p className="leading-relaxed text-base">
                   With a keen eye for detail and a strong sense of aesthetics, I
                   create compelling visuals that communicate ideas clearly and
