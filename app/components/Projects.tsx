@@ -19,7 +19,7 @@ const Projects = () => {
               results that exceed expectations and drive results.
             </p>
           </div>
-          <div className="flex flex-wrap -m-8">
+          <div className="flex flex-wrap">
             {/* Project */}
             <div className="transition-transform duration-300 ease-in-out hover:scale-110 lg:w-1/2 sm:w-1/2 p-6 cursor-pointer">
               <div className="flex relative">
