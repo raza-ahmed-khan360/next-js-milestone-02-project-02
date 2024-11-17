@@ -23,7 +23,7 @@ const Hero = () => {
               I am
               <br className="hidden lg:inline-block" />
               <Typewriter
-className="font-italic font-medium"
+className="font-italic"
                 options={{
                   strings: [
                     "Web Developer",
