@@ -22,7 +22,8 @@ const Hero = () => {
             <h1 className="title-font sm:text-4xl text-3xl mb-4  text-gray-900 font-bold">
               I am
               <br className="hidden lg:inline-block" />
-             <i> <Typewriter
+              <Typewriter
+className="font-italic"
                 options={{
                   strings: [
                     "Web Developer",
@@ -32,7 +33,7 @@ const Hero = () => {
                   autoStart: true,
                   loop: true,
                 }}
-              /></i>
+              />
             </h1>
             <div className="w-full h-[3px] bg-blue-200"></div>
             <p className="mb-8 mt-2 leading-relaxed">
